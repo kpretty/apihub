@@ -1,10 +1,6 @@
 package tech.kpretty.apihub.service.impl;
 
 import com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper;
-import org.springframework.aop.framework.AopContext;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.context.ApplicationContext;
-import org.springframework.context.annotation.EnableAspectJAutoProxy;
 import tech.kpretty.apihub.entity.ApiInfo;
 import tech.kpretty.apihub.entity.DataSource;
 import tech.kpretty.apihub.entity.PageParam;

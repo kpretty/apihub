@@ -2,7 +2,6 @@ package tech.kpretty.apihub.controller;
 
 import tech.kpretty.apihub.entity.PageParam;
 import tech.kpretty.apihub.exception.ApiException;
-import tech.kpretty.apihub.proxy.EnableCache;
 import tech.kpretty.apihub.result.PageResult;
 import tech.kpretty.apihub.result.Result;
 import tech.kpretty.apihub.result.ResultResponse;

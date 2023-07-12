@@ -3,7 +3,6 @@ package tech.kpretty.apihub.proxy;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import lombok.extern.slf4j.Slf4j;
 import org.aspectj.lang.ProceedingJoinPoint;
-import org.aspectj.lang.annotation.AfterThrowing;
 import org.aspectj.lang.annotation.Around;
 import org.aspectj.lang.annotation.Aspect;
 import org.aspectj.lang.annotation.Pointcut;
@@ -11,8 +10,6 @@ import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.stereotype.Component;
 import tech.kpretty.apihub.entity.Query;
 import tech.kpretty.apihub.result.PageResult;
-import tech.kpretty.apihub.result.Result;
-import tech.kpretty.apihub.result.ResultResponse;
 
 import javax.annotation.Resource;
 import java.util.concurrent.TimeUnit;

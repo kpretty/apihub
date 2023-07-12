@@ -1,7 +1,5 @@
 package tech.kpretty.apihub.service;
 
-
-import com.fasterxml.jackson.core.JsonProcessingException;
 import org.springframework.stereotype.Service;
 import tech.kpretty.apihub.entity.PageParam;
 import tech.kpretty.apihub.entity.Query;
